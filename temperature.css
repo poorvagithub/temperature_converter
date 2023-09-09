@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    /* background-image: url(temp3.jpg), url(temp10.png); */
+
+    background-image: url(temp10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: multiply; */
+     
+}
+.container
+{
+    /* border: 3px solid black; */
+       height:450px;
+    width: 400px;
+    border:5px solid black ;
+    /* margin-left: 50%; */
+    position: absolute;
+    left: 47%;
+     top:50%;
+     transform: translate(-50%,-50%);
+     border-radius: 30px;
+  
+     box-shadow: 10px 30px 20px rgb(77, 75, 75);
+     
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 10px 10px 10px rgb(61, 58, 58);
+}
+
+/* .temp-container{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 10px;
+    
+} */
+
+#celcius{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+#fahrenheit{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+#kelvin{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.celcius{
+
+    font-size: 20px;
+    border: 19px bold black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 7px;
+    width: 180px;
+    margin-left: 59px;
+    background-color:transparent;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    
+}
+
+.fahrenheit{
+    font-size: 20px;
+    border: 19px bold black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 7px;
+    width: 180px;
+    background-color:transparent;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+
+}
+
+.kelvin{
+    font-size: 20px;
+    border: 19px bold black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 7px;
+    width: 180px;
+    margin-left: 80px;
+    background-color:transparent;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+
+}
+
+.celcius:hover{
+    background-color: rgb(225, 229, 235);
+    box-shadow: rgb(225, 229, 235) 8px 8px 8px ;
+}
+
+.fahrenheit:hover{
+    background-color: rgb(225, 229, 235);
+    box-shadow: rgb(225, 229, 235) 8px 8px 8px ;
+}
+
+.kelvin:hover{
+    background-color: rgb(225, 229, 235);
+    box-shadow: rgb(225, 229, 235) 8px 8px 8px ;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+}
+
+input{
+    -moz-appearance:textfield;
+}
+
+
+.butt{
+
+    height: 30px;
+    width:  70px;
+    margin-left: 150px ;
+    margin-top: 25px;
+    background-color: black;
+    color:white;
+    
+}
+
+.butt:hover{
+    box-shadow: rgb(56, 57, 58) 8px 8px 8px ;
+    background-color: rgb(154, 149, 149);
+    color: black;
+
+   
+}
